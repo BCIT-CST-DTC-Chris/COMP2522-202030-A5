@@ -84,7 +84,7 @@ public class FileProcessorTest {
     @Test
     public void testSherlockTheCount() {
         fileProcessorEn.calcWordCount(englishWords);
-        assertEquals(fileProcessorEn.getNumOccurences("the"), SHERLOCK_NUM_THE);
+        assertEquals(fileProcessorEn.getNumOccurrences("the"), SHERLOCK_NUM_THE);
     }
 
     @Test
@@ -107,6 +107,6 @@ public class FileProcessorTest {
     @Test
     public void testEBookUneCount() {
         fileProcessorFr.calcWordCount(frenchWords);
-        assertEquals(fileProcessorFr.getNumOccurences("une"), EBOOK_NUM_UNE);
+        assertEquals(fileProcessorFr.getNumOccurrences("une"), EBOOK_NUM_UNE);
     }
 }
