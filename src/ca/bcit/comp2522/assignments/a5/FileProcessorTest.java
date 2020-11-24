@@ -11,22 +11,26 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+
+/**
+ *    Version  1.01
+ *      Change History: book words should be converted to lowercase
+ */
 public class FileProcessorTest {
-    //You may change this if the directory is incorrect
     private static final String DIRECTORY = "A5/src/res/";
 
     private static final int ENGLISH_WORDS = 370103;
     private static final int FRENCH_WORDS = 426671;
 
     private static final int SHERLOCK_LINES = 12310;
-    private static final int SHERLOCK_DISTINCT_WORDS = 7437;
-    private static final int SHERLOCK_TOTAL_WORDS = 95934;
-    private static final int SHERLOCK_NUM_THE = 5431;
+    private static final int SHERLOCK_DISTINCT_WORDS = 7884;
+    private static final int SHERLOCK_TOTAL_WORDS = 108196;
+    private static final int SHERLOCK_NUM_THE = 5816;
 
     private static final int EBOOK_LINES = 6831;
-    private static final int EBOOK_DISTINCT_WORDS = 5666;
-    private static final int EBOOK_TOTAL_WORDS = 44484;
-    private static final int EBOOK_NUM_UNE = 462;
+    private static final int EBOOK_DISTINCT_WORDS = 5874;
+    private static final int EBOOK_TOTAL_WORDS = 47842;
+    private static final int EBOOK_NUM_UNE = 499;
 
     FileProcessor fileProcessorEn;
     FileProcessor fileProcessorFr;
